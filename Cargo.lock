@@ -497,6 +497,7 @@ dependencies = [
 [[package]]
 name = "uesave"
 version = "0.3.0"
+source = "git+https://github.com/CirnoV/uesave-rs.git#575389d125ecab62ea162834af143a540f2511d6"
 dependencies = [
  "anyhow",
  "byteorder",
