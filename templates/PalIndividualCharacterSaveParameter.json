@@ -1,0 +1,426 @@
+{
+    "SaveParameter": {
+        "Struct": {
+            "value": {
+                "Struct": {
+                    "NickName": {
+                        "Str": {
+                            "value": "Default player"
+                        }
+                    },
+                    "HP": {
+                        "Struct": {
+                            "value": {
+                                "Struct": {
+                                    "Value": {
+                                        "Int64": {
+                                            "value": 500000
+                                        }
+                                    }
+                                }
+                            },
+                            "struct_type": {
+                                "Struct": "FixedPoint64"
+                            },
+                            "struct_id": "00000000-0000-0000-0000-000000000000"
+                        }
+                    },
+                    "FullStomach": {
+                        "Float": {
+                            "value": 100.0
+                        }
+                    },
+                    "IsPlayer": {
+                        "Bool": {
+                            "value": true
+                        }
+                    },
+                    "MaxHP": {
+                        "Struct": {
+                            "value": {
+                                "Struct": {
+                                    "Value": {
+                                        "Int64": {
+                                            "value": 500000
+                                        }
+                                    }
+                                }
+                            },
+                            "struct_type": {
+                                "Struct": "FixedPoint64"
+                            },
+                            "struct_id": "00000000-0000-0000-0000-000000000000"
+                        }
+                    },
+                    "Support": {
+                        "Int": {
+                            "value": 100
+                        }
+                    },
+                    "CraftSpeed": {
+                        "Int": {
+                            "value": 100
+                        }
+                    },
+                    "CraftSpeeds": {
+                        "Array": {
+                            "array_type": "StructProperty",
+                            "value": {
+                                "Struct": {
+                                    "_type": "CraftSpeeds",
+                                    "name": "StructProperty",
+                                    "struct_type": {
+                                        "Struct": "PalWorkSuitabilityInfo"
+                                    },
+                                    "id": "00000000-0000-0000-0000-000000000000",
+                                    "value": [
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::EmitFlame",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::Watering",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::Seeding",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::GenerateElectricity",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::Handcraft",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::Collection",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::Deforest",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::Mining",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::OilExtraction",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::ProductMedicine",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::Cool",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::Transport",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "WorkSuitability": {
+                                                    "Enum": {
+                                                        "value": "EPalWorkSuitability::MonsterFarm",
+                                                        "enum_type": "EPalWorkSuitability"
+                                                    }
+                                                },
+                                                "Rank": {
+                                                    "Int": {
+                                                        "value": 5
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "GotStatusPointList": {
+                        "Array": {
+                            "array_type": "StructProperty",
+                            "value": {
+                                "Struct": {
+                                    "_type": "GotStatusPointList",
+                                    "name": "StructProperty",
+                                    "struct_type": {
+                                        "Struct": "PalGotStatusPoint"
+                                    },
+                                    "id": "00000000-0000-0000-0000-000000000000",
+                                    "value": [
+                                        {
+                                            "Struct": {
+                                                "StatusName": {
+                                                    "Name": {
+                                                        "value": "最大HP"
+                                                    }
+                                                },
+                                                "StatusPoint": {
+                                                    "Int": {
+                                                        "value": 0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "StatusName": {
+                                                    "Name": {
+                                                        "value": "最大SP"
+                                                    }
+                                                },
+                                                "StatusPoint": {
+                                                    "Int": {
+                                                        "value": 0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "StatusName": {
+                                                    "Name": {
+                                                        "value": "攻撃力"
+                                                    }
+                                                },
+                                                "StatusPoint": {
+                                                    "Int": {
+                                                        "value": 0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "StatusName": {
+                                                    "Name": {
+                                                        "value": "所持重量"
+                                                    }
+                                                },
+                                                "StatusPoint": {
+                                                    "Int": {
+                                                        "value": 0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "StatusName": {
+                                                    "Name": {
+                                                        "value": "捕獲率"
+                                                    }
+                                                },
+                                                "StatusPoint": {
+                                                    "Int": {
+                                                        "value": 0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "Struct": {
+                                                "StatusName": {
+                                                    "Name": {
+                                                        "value": "作業速度"
+                                                    }
+                                                },
+                                                "StatusPoint": {
+                                                    "Int": {
+                                                        "value": 0
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "DecreaseFullStomachRates": {
+                        "Struct": {
+                            "value": {
+                                "Struct": {}
+                            },
+                            "struct_type": {
+                                "Struct": "FloatContainer"
+                            },
+                            "struct_id": "00000000-0000-0000-0000-000000000000"
+                        }
+                    },
+                    "CraftSpeedRates": {
+                        "Struct": {
+                            "value": {
+                                "Struct": {}
+                            },
+                            "struct_type": {
+                                "Struct": "FloatContainer"
+                            },
+                            "struct_id": "00000000-0000-0000-0000-000000000000"
+                        }
+                    },
+                    "LastJumpedLocation": {
+                        "Struct": {
+                            "value": {
+                                "Vector": {
+                                    "x": -362179.424532,
+                                    "y": 270846.47852,
+                                    "z": 8465.288439844817
+                                }
+                            },
+                            "struct_type": "Vector",
+                            "struct_id": "00000000-0000-0000-0000-000000000000"
+                        }
+                    },
+                    "VoiceID": {
+                        "Int": {
+                            "value": 2
+                        }
+                    }
+                }
+            },
+            "struct_type": {
+                "Struct": "PalIndividualCharacterSaveParameter"
+            },
+            "struct_id": "00000000-0000-0000-0000-000000000000"
+        }
+    }
+}
