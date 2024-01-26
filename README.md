@@ -8,8 +8,8 @@ This tool is designed to recover save data for offline players that have been co
 ## Usage
 ```bash
 # Command
-palworld-guild-bug-fix.exe <save_path>
+palworld-guild-bug-fix[.exe] <save_path>
 
 # Example
-palworld-guild-bug-fix.exe "C:\palworld_save_backup\0\B9032B60934F48C3B1E6706CCBB363DF"
+palworld-guild-bug-fix[.exe] "palworld_save_backup\0\B9032B60934F48C3B1E6706CCBB363DF"
 ```
